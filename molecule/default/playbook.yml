@@ -3,7 +3,7 @@
   hosts: all
   roles:
 
-    - role: ome.postgresql
+    - role: postgresql
       postgresql_databases:
         - name: alice
       postgresql_users:
